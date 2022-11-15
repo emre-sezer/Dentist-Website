@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ES</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/sweetalert2.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+
+    <link rel="icon" type="image/x-icon" href="assets/img/white-logo.png" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="assets/img/logo.png" alt="" class="img-fluid" />
+          </a>
+          <button class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><img src="assets/img/hamburger-icon.png" alt="Hamburger Icon" class="img-fluid"></button>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNavDropdown"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Patient Information</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Procedures</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Meet Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Surgical Instructions</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Referring Doctors</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header">
+        <h5 id="offcanvasRightLabel"> <img src="assets/img/side-menu-logo.png" alt="" class="img-fluid"> </h5>
+        <div class="sideMenuClose"  data-bs-dismiss="offcanvas" aria-label="Close"> <img src="assets/img/close-icon.png" alt="" class="img-fluid"> </div>
+      </div>
+      <div class="offcanvas-body">
+       <nav>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"
+              >Patient Information</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Procedures</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Meet Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Surgical Instructions</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Referring Doctors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+        </ul>
+       </nav>
+
+       <div class="sideMenuContactInfo">
+        <a href="tel:949-297-8880"
+          ><div class="icon"><i class="bi bi-telephone"></i></div>
+          949-297-8880</a
+        >
+        <a href=""
+          ><div class="icon"><i class="bi bi-geo-alt"></i></div>
+          26730 Towne Centre Drive, Suite 105, Foothill Ranch, CA
+          92610</a
+        >
+      </div>
+
+      </div>
+    </div>
+
+    <section class="hero" id="hero">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 col-md-12">
+            <div class="textContent">
+              <h1 class="title">We are here for all your Oral Surgery Needs</h1>
+
+              <a href="#" class="defaultBtn"> Learn More </a>
+
+              <div class="heroContactInfo">
+                <a href="tel:949-297-8880"
+                  ><div class="icon"><i class="bi bi-telephone"></i></div>
+                  949-297-8880</a
+                >
+                <a href=""
+                  ><div class="icon"><i class="bi bi-geo-alt"></i></div>
+                  26730 Towne Centre Drive, Suite 105, Foothill Ranch, CA
+                  92610</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-12">
+            <div class="imgContent">
+              <div class="img-circle-1">
+                <div class="img-circle-2">
+                  <div class="img-circle-3">
+                    <img
+                      src="assets/img/hero-img.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div class="heroScroll">
+                <div class="scrolling">
+                  <div class="text">Scrolling for more</div>
+                </div>
+
+                <div class="scrollSection">
+                  <img src="assets/img/arrow.png" alt="" class="img-fluid" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="container">
+        <div class="row">
+        <div class="col-12">
+          <div class="swiper serviceSlider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="serviceBox">
+                  <div class="icon">
+                    <img
+                      src="assets/img/service-1.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <h2 class="boxTitle">Wisdom Teeth Removal</h2>
+                  <p class="boxDesc">
+                    With an oral examination and x-rays of the mouth, Dr.
+                    Vaughan can evaluate the position of the wisdom teeth and
+                    predict if there are present or future [...]
+                  </p>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="serviceBox">
+                  <div class="icon">
+                    <img src="assets/img/dental.png" alt="" class="img-fluid" />
+                  </div>
+                  <h2 class="boxTitle">Dental Implants</h2>
+                  <p class="boxDesc">
+                    A natural tooth consists of a root and a crown. If you
+                    compare natural teeth to implant-supported replacement
+                    teeth, you’ll see they have the same basic parts.
+                  </p>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="serviceBox">
+                  <div class="icon">
+                    <img
+                      src="assets/img/patient.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <h2 class="boxTitle">Patient Registration</h2>
+                  <p class="boxDesc">
+                    You may preregister with our office by filling out our
+                    secure online Patient Registration Form.
+                  </p>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="serviceBox">
+                  <div class="icon">
+                    <img
+                      src="assets/img/referral.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <h2 class="boxTitle">
+                    Referral <br />
+                    Form
+                  </h2>
+                  <p class="boxDesc">
+                    A Message from Dr. Vaughan It is my pleasure to introduce
+                    you to our Oral Maxillofacial and Implant Surgery practice.
+                  </p>
+                </div>
+              </div>
+            </div>
+           
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="procedures">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 col-md-12">
+            <div class="imgContent">
+              <div class="img-circle-1">
+                <div class="img-circle-2">
+                  <div class="img-circle-3">
+                    <img
+                      src="assets/img/procedures.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12">
+            <div class="textContent">
+              <h2 class="title">Procedures</h2>
+              <p>
+                Oral and maxillofacial surgeons manage a wide variety of
+                problems relating to the mouth, teeth, and facial regions.
+              </p>
+              <p>
+                Select any of the links below to find out more about the
+                services we offer at L. Stephen Vaughan, DDS, MD.
+              </p>
+
+              <a href="#" class="defaultBtn"> All Procedures </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="surgery">
+      <div class="container">
+        <div class="row align-items-center type1">
+          <div class="col-lg-6 col-md-12">
+            <div class="textContent">
+              <h2>Oral Surgery, Foothill Ranch CA</h2>
+              <h4>L. Stephen Vaughan, DDS, MD</h4>
+              <p>
+                Foothill Ranch Oral & Maxillofacial Surgeon, L. Stephen Vaughan,
+                DDS, MD, practices a full scope of oral and maxillofacial
+                surgery with expertise ranging from corrective jaw surgery to
+                wisdom tooth removal. We can also diagnose and treat facial
+                pain, facial injuries and TMJ disorders, and perform a full
+                range of dental implant and bone grafting procedures.
+              </p>
+              <p>
+                Dr. Vaughan‘s staff is trained in assisting with I.V. sedation
+                within our state-of-the-art office setting.
+              </p>
+              <p>
+                Our office is located at 26730 Towne Centre Drive, Suite 105,
+                Foothill Ranch, CA.
+              </p>
+              <p>
+                <b>
+                  Call us at Foothill Ranch Office Phone Number949-297-8880.</b
+                >
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12">
+            <div class="imgContent pLeft50">
+              <div class="img-circle-3">
+                <img src="assets/img/surgery.png" alt="" class="img-fluid" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row align-items-center mTop type2">
+          <div class="col-lg-6 col-md-12">
+            <div class="imgContent pRight100">
+              <div class="img-circle-3">
+                <img
+                  src="assets/img/dental-implant.png"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12">
+            <div class="textContent">
+              <h4>
+                Dental Implants <br />
+                Foothill Ranch CA
+              </h4>
+              <p>
+                Dental implants are designed to provide a foundation for
+                replacement teeth that look, feel, and function like natural
+                teeth. The person who has lost teeth regains the ability to eat
+                virtually anything and can smile with confidence, knowing that
+                teeth appear natural and that facial contours will be preserved.
+              </p>
+              <p>
+                Dental implants are changing the way people live. With them,
+                people are rediscovering the comfort and confidence to eat,
+                speak, laugh and enjoy life. For more information about dental
+                implants or to schedule a consultation appointment,
+                <b>
+                  call our office in Foothill Ranch, CA at Foothill Ranch Office
+                  Phone Number949-297-8880.
+                </b>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="videoSection" data-vide-bg="assets/img/video.mp4">
+      <div class="overlay"></div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2>Dental Implants Presentation</h2>
+            <p>
+              To provide you with a better understanding of dental implants, we
+              have provided the following multimedia presentation. Many common
+              questions pertaining to dental implants are discussed.
+            </p>
+
+            <a href="" class="defaultBtn">Click to view Interactive Videos</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contactUsToday">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <form
+              id="contact-form"
+              method="post"
+              action="assets/phpmailer/mail.php"
+            >
+              <div style="display: none" id="mail-status"></div>
+              <h2>Contact Us Today</h2>
+
+              <div class="row">
+                <div class="col-md-6 col-12 pr-6">
+                  <div class="form-item">
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="first-name"
+                      id="first-name"
+                      placeholder="Your Name*"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="col-md-6 col-12 pl-6">
+                  <div class="form-item">
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="last-name"
+                      id="last-name"
+                      placeholder="Your Phone Number*"
+                      required
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-12 col-12">
+                  <div class="form-item">
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="email"
+                      id="email"
+                      placeholder="Email*"
+                      required
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-12">
+                  <select
+                    class="form-select"
+                    aria-label="Default select example"
+                  >
+                    <option hidden selected>I am interested in</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-6 col-12">
+                  <select
+                    class="form-select"
+                    aria-label="Default select example"
+                  >
+                    <option hidden selected>Best Time for Appointment</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </div>
+                <div class="col-md-6 col-12">
+                  <select
+                    class="form-select"
+                    aria-label="Default select example"
+                  >
+                    <option hidden selected>Preferred Day of Week</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-12">
+                  <select
+                    class="form-select"
+                    aria-label="Default select example"
+                  >
+                    <option hidden selected>How did you hear about us?</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-12 col-12">
+                  <textarea
+                    class="form-control"
+                    placeholder="Comments/Questions"
+                    name="message"
+                    id="message"
+                    required
+                    style="height: 100px"
+                  ></textarea>
+                </div>
+              </div>
+
+              <div class="row mt-2">
+                <div class="col-12">
+                  <button
+                    id="contact-form-submit"
+                    type="submit"
+                    name="submit"
+                    class="defaultBtn w-100 text-center mt-4"
+                    style="border: 0"
+                  >
+                    Connect
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="serving"
+      style="background: url('assets/img/following.png')"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2>Serving the Following Cities</h2>
+
+            <div class="desc">
+              <p>
+                • Foothill Ranch CA • Rancho Santa Margarita CA • Lake Forest CA
+                • Mission Viejo CA • Irvine CA • Laguna Hills CA • Ladera Ranch
+                CA • Trabuco Canyon CA • , Coto de Caza CA • Portola Hills CA
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="footerLogo text-center">DR. VAUGHAN</div>
+
+            <div class="footerContact">
+              <a href="tel:949-297-8880"
+                ><i class="bi bi-telephone"></i> Foothill Ranch Office Phone
+                Number949-297-8880 Fax: 949-297-8883
+              </a>
+              <a href=""
+                ><i class="bi bi-geo-alt"></i> 26730 Towne Centre Drive, Suite
+                105, Foothill Ranch, CA 92610</a
+              >
+            </div>
+
+            <div class="footerBot">
+              L. Stephen Vaughan, DDS, MD is proud to offer the highest level of
+              care to our community. A combination of the latest treatments and
+              technologies and a genuine passion for patient care allow us to
+              provide our patients with optimal experiences and results in our
+              office every day. Whether you are here for aesthetic or health
+              reasons, we welcome you to our practice.
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery-video.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/sweetalert2.min.js"></script>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

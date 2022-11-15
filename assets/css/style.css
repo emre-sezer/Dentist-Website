@@ -1,0 +1,560 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+@font-face {
+  font-family: "CenturyGothic";
+  src: url("../fonts/CenturyGothic.ttf") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter.ttf") format("woff");
+  font-display: swap;
+}
+.textBold {
+  font-weight: bold;
+}
+
+.hideDesktop {
+  display: none;
+}
+
+.defaultBtn {
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  background: #0058ff;
+  border-radius: 62px;
+  color: #fff;
+  text-decoration: none;
+  padding: 12.5px 73px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.defaultBtn:hover {
+  color: #fff;
+  transition: 0.5s;
+  transform: translateY(-5px);
+  filter: drop-shadow(2px 15px 15px #0058ff);
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(12px);
+  z-index: 99;
+}
+.header .navbar-toggler {
+  border: 0;
+  outline: 0;
+  box-shadow: none;
+}
+.header nav {
+  padding: 11px 150px;
+}
+.header li {
+  padding: 0 20px;
+}
+.header li a {
+  font-family: "CenturyGothic";
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000;
+}
+
+#offcanvasRight {
+  background-color: #0058ff;
+}
+#offcanvasRight .offcanvas-header, #offcanvasRight .offcanvas-body {
+  padding: 15px 26px;
+}
+#offcanvasRight .sideMenuClose {
+  padding-right: 10px;
+}
+#offcanvasRight nav {
+  margin-top: 20px;
+}
+#offcanvasRight nav a {
+  font-family: "Century Gothic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  color: #FFFFFF;
+  margin-bottom: 26px;
+}
+#offcanvasRight .sideMenuContactInfo {
+  margin-top: 20px;
+}
+#offcanvasRight .sideMenuContactInfo .icon {
+  width: 39px;
+  height: 39px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 4px;
+  flex-shrink: 0;
+  margin-right: 20px;
+}
+#offcanvasRight .sideMenuContactInfo .icon i {
+  color: #000;
+}
+#offcanvasRight .sideMenuContactInfo a {
+  display: flex;
+  margin-bottom: 15px;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero {
+  background: #c8d2d3;
+  padding: 86px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+.hero .textContent {
+  position: relative;
+  z-index: 50;
+  padding-right: 70px;
+}
+.hero .textContent .title {
+  font-family: "Inter";
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 80px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: capitalize;
+  color: #344651;
+  margin-bottom: 130px;
+  margin-top: 150px;
+}
+.hero .textContent .heroContactInfo {
+  margin-top: 102px;
+}
+.hero .textContent .heroContactInfo a {
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-decoration: none;
+}
+.hero .textContent .heroContactInfo a:nth-child(1) {
+  padding-right: 35px;
+}
+.hero .textContent .heroContactInfo a .icon {
+  width: 39px;
+  height: 39px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 4px;
+}
+.hero .textContent .heroContactInfo a .icon i {
+  font-size: 16px;
+}
+.hero .imgContent {
+  position: relative;
+  padding-top: 60px;
+}
+.hero .imgContent .img-circle-1 {
+  outline: rgba(255, 255, 255, 0.2509803922) solid 509px;
+  border-radius: 50%;
+  z-index: 3;
+  position: relative;
+}
+.hero .imgContent .img-circle-2 {
+  outline: #c8d2d3 solid 210px;
+  border-radius: 50%;
+  z-index: 2;
+  position: relative;
+}
+.hero .imgContent .img-circle-3 {
+  outline: #fff solid 94px;
+  border-radius: 50%;
+  z-index: 1;
+  position: relative;
+  border: #fff solid 14px;
+}
+.hero .imgContent .img-circle-3 img {
+  width: 100%;
+}
+.hero .imgContent .heroScroll {
+  position: absolute;
+  right: -34px;
+  z-index: 5;
+  bottom: 5%;
+}
+.hero .imgContent .heroScroll .text {
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.195em;
+  text-align: left;
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
+  transform: rotate(180deg);
+  color: #344651;
+}
+.hero .imgContent .heroScroll .scrollSection {
+  margin-top: 47px;
+  position: relative;
+  left: 5px;
+}
+.hero .imgContent .heroScroll .scrollSection::after {
+  content: "";
+  position: absolute;
+  width: 43px;
+  height: 43px;
+  background-color: #fff;
+  left: -50%;
+  bottom: -17%;
+  transform: translate(-12%, 0);
+  z-index: -1;
+  border-radius: 50%;
+}
+
+.services {
+  margin-top: 111px;
+  position: relative;
+  z-index: 5;
+  overflow: hidden;
+}
+.services .swiper-slide {
+  height: auto;
+}
+.services .serviceBox {
+  padding: 25px 25px 25px 50px;
+  background: #f7f7f5;
+  border: 1px solid #a3a5a8;
+  border-radius: 22px;
+  height: 100%;
+}
+.services .serviceBox .boxTitle {
+  font-family: "CenturyGothic";
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 43px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #344651;
+  margin-top: 55px;
+  margin-bottom: 33px;
+}
+.services .serviceBox .boxDesc {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.procedures {
+  margin-top: 250px;
+}
+.procedures .img-circle-1 {
+  outline: rgba(255, 255, 255, 0.2509803922) solid 509px;
+  border-radius: 50%;
+  z-index: 3;
+  position: relative;
+}
+.procedures .img-circle-2 {
+  outline: rgba(163, 165, 168, 0.1019607843) solid 231px;
+  border-radius: 50%;
+  z-index: 2;
+  position: relative;
+}
+.procedures .img-circle-3 {
+  outline: #fff solid 108px;
+  border-radius: 50%;
+  z-index: 1;
+  position: relative;
+}
+.procedures .img-circle-3 img {
+  width: 100%;
+}
+.procedures .textContent {
+  position: relative;
+  z-index: 5;
+  padding-left: 23%;
+}
+.procedures .textContent h2,
+.procedures .textContent .title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 100.02%;
+  margin-bottom: 60px;
+  text-transform: capitalize;
+  color: #344651;
+}
+.procedures .textContent p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140.02%;
+  color: #000000;
+}
+.procedures .textContent .defaultBtn {
+  margin-top: 60px;
+}
+
+.surgery {
+  background: #c8d2d3;
+  padding: 331px 0 250px;
+}
+.surgery .textContent {
+  position: relative;
+  z-index: 5;
+}
+.surgery .textContent h2,
+.surgery .textContent .title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 120.02%;
+  text-transform: capitalize;
+  color: #344651;
+  margin-bottom: 100px;
+}
+.surgery .textContent h4 {
+  font-family: "Century Gothic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 120.02%;
+  margin-bottom: 70px;
+  color: #344651;
+}
+.surgery .textContent p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140.02%;
+  color: #000000;
+}
+.surgery .imgContent {
+  text-align: center;
+}
+.surgery .imgContent .img-circle-3 {
+  outline: rgba(255, 255, 255, 0.2509803922) solid 27px;
+  border-radius: 50%;
+  z-index: 1;
+  position: relative;
+  border: rgba(255, 255, 255, 0.25) solid 100px;
+}
+.surgery .mTop {
+  margin-top: 100px;
+}
+.surgery .pLeft50 {
+  padding-left: 50px;
+}
+.surgery .pLeft50 .img-circle-3 {
+  border: rgba(255, 255, 255, 0.25) solid 75px;
+}
+.surgery .pRight100 {
+  padding-right: 100px;
+}
+.surgery .pRight100 .img-circle-3 {
+  outline: rgba(255, 255, 255, 0.2509803922) solid 60px;
+  border: rgba(255, 255, 255, 0.25) solid 50px;
+}
+
+.videoSection {
+  padding: 150px 0;
+  text-align: center;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.videoSection .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: #344651;
+  mix-blend-mode: multiply;
+  opacity: 0.3;
+}
+.videoSection .container {
+  position: relative;
+  z-index: 5;
+}
+.videoSection h2,
+.videoSection .title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 80px;
+  line-height: 120.02%;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 50px;
+  color: #ffffff;
+}
+.videoSection p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 137.02%;
+  text-align: center;
+  color: #ffffff;
+  width: 50%;
+  margin: 0 auto;
+}
+.videoSection a {
+  margin-top: 70px;
+}
+
+.contactUsToday {
+  padding: 210px 0 50px;
+}
+.contactUsToday .container {
+  max-width: 950px;
+}
+.contactUsToday h2,
+.contactUsToday .title {
+  text-align: center;
+  margin-bottom: 110px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 120.02%;
+  text-transform: capitalize;
+  color: #344651;
+}
+.contactUsToday .form-control {
+  color: #000;
+  background: #ffffff !important;
+  border: 1px solid #a3a5a8 !important;
+  border-radius: 15px !important;
+  margin-bottom: 30px;
+  padding: 20px 33px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 124.52%;
+  color: #344651;
+}
+.contactUsToday .form-select {
+  padding: 20px 33px;
+  border: 1px solid #a3a5a8 !important;
+  border-radius: 15px !important;
+  background-image: url(/assets/img/select-arrow.png);
+  background-size: auto;
+  margin-bottom: 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 124.52%;
+  color: #344651;
+  background-position: right 29px center;
+}
+
+.serving {
+  padding: 200px 0;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+}
+.serving .container {
+  position: relative;
+}
+.serving h2,
+.serving .title {
+  margin-top: 110px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 120.02%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #344651;
+}
+.serving .desc {
+  width: 41.5%;
+  margin: 30px auto 0;
+}
+.serving p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140.02%;
+  text-align: center;
+  color: #000000;
+}
+
+footer {
+  background: #c8d2d3;
+  padding: 75px 0;
+}
+footer .footerLogo {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23.7426px;
+  line-height: 29px;
+  color: #344651;
+}
+footer .footerContact {
+  margin-top: 30px;
+  text-align: center;
+}
+footer .footerContact a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 123.02%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 50px;
+  text-decoration: none;
+  color: #344651;
+}
+footer .footerContact a i {
+  color: #0058ff;
+  font-size: 20px;
+  margin-right: 15px;
+}
+footer .footerBot {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140.02%;
+  text-align: center;
+  color: #000000;
+  width: 69%;
+  margin: 20px auto 0;
+}/*# sourceMappingURL=style.css.map */

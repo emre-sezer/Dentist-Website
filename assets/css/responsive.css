@@ -1,0 +1,349 @@
+@media (min-width: 1400px) {
+  .container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+    max-width: 1415px;
+  }
+}
+@media (max-width: 1740px) {
+  .header nav {
+    padding: 11px 14px;
+  }
+}
+@media (max-width: 1500px) {
+  .hero .imgContent .heroScroll {
+    right: -20px;
+  }
+}
+@media (max-width: 1480px) {
+  .hero .imgContent .heroScroll {
+    right: 100%;
+    bottom: 3%;
+  }
+}
+@media (max-width: 1400px) {
+  .hero {
+    height: 100vh;
+  }
+  .container {
+    max-width: 100%;
+    padding: 0 26px;
+  }
+  .hero .textContent .heroContactInfo a {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+  .hero .imgContent .heroScroll {
+    bottom: 0;
+  }
+  .header li {
+    padding: 0 5px;
+  }
+}
+@media (max-width: 1200px) {
+  .procedures .textContent h2, .procedures .textContent .title, .surgery .textContent h2, .surgery .textContent .title, .videoSection h2, .videoSection .title, .contactUsToday h2, .contactUsToday .title, .serving h2, .serving .title {
+    font-size: 60px;
+  }
+  .serving {
+    background-size: cover !important;
+    padding: 0 0 75px;
+  }
+  .videoSection {
+    padding: 90px 0;
+    height: 725px;
+  }
+  .videoSection video {
+    height: 100%;
+  }
+  .videoSection p {
+    width: 70%;
+  }
+  .contactUsToday h2, .contactUsToday .title {
+    margin-bottom: 60px;
+  }
+  .hero .textContent .title {
+    font-size: 60px;
+  }
+  .contactUsToday {
+    padding: 90px 0 50px;
+  }
+  .header .navbar-brand img {
+    width: 200px;
+  }
+  .services .serviceBox .boxTitle {
+    font-size: 32px;
+  }
+}
+@media (max-width: 991px) {
+  .hideTablet {
+    display: none;
+  }
+  .showTablet {
+    display: inline-block;
+  }
+  .hero .imgContent {
+    position: absolute;
+    padding-top: 0;
+    right: -20%;
+    top: 20%;
+  }
+  .hero .textContent .title {
+    width: 50%;
+  }
+  .procedures .textContent {
+    padding-left: 0;
+  }
+  .procedures .img-circle-3 img {
+    width: 500px;
+  }
+  .procedures {
+    position: relative;
+    margin-top: 629px;
+    margin-bottom: 90px;
+  }
+  .procedures .imgContent {
+    position: absolute;
+    top: -150%;
+    left: -10%;
+  }
+  .surgery {
+    padding: 150px 0 200px;
+  }
+  .surgery {
+    position: relative;
+    overflow: hidden;
+  }
+  .surgery .type1 .textContent {
+    width: 60%;
+  }
+  .surgery .type1 .imgContent {
+    position: absolute;
+    top: 5%;
+    right: -20%;
+  }
+  .surgery .type2 .textContent {
+    padding-left: 50%;
+  }
+  .surgery .type2 .imgContent {
+    position: absolute;
+    left: -20%;
+  }
+  .procedures .img-circle-2 {
+    outline: rgba(163, 165, 168, 0.1019607843) solid 168px;
+  }
+  .procedures .img-circle-3 {
+    outline: #fff solid 78px;
+  }
+  .hero .textContent {
+    padding-right: 0;
+  }
+  .hero .imgContent .img-circle-3 img {
+    width: 500px;
+  }
+  .services .serviceSlider {
+    width: 100%;
+    display: grid;
+    width: 110vw;
+    max-width: 98rem;
+    margin: auto;
+    -webkit-column-gap: 3rem;
+    column-gap: 3rem;
+    margin-right: 0;
+  }
+  .services .serviceSlider .swiper-pagination {
+    display: none;
+  }
+  .services {
+    margin-top: 90px;
+  }
+}
+@media (max-width: 767px) {
+  .hideMobile {
+    display: none;
+  }
+  .showMobile {
+    display: inline-block;
+  }
+  .hero .textContent .title {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 100.02%;
+  }
+  .hero .imgContent .img-circle-3 img {
+    width: 309px;
+  }
+  .hero .imgContent {
+    right: -5%;
+  }
+  .hero .imgContent .heroScroll {
+    bottom: -90%;
+    right: 24%;
+  }
+  .hero .imgContent .img-circle-3 {
+    outline: #fff solid 21px;
+  }
+  .hero .imgContent .img-circle-2 {
+    outline: #c8d2d3 solid 73px;
+  }
+  .hero .imgContent .img-circle-1 {
+    outline: rgba(255, 255, 255, 0.2509803922) solid 174px;
+  }
+  .hero .textContent .title {
+    margin-bottom: 100px;
+  }
+  .surgery .type2 .textContent {
+    padding-left: 0;
+    margin-top: 100%;
+  }
+  .surgery .type1 .textContent {
+    width: 100%;
+    margin-top: 30%;
+  }
+  .surgery {
+    padding: 70px 0;
+  }
+  .surgery .textContent h2, .surgery .textContent .title {
+    width: 50%;
+  }
+  .serving .desc {
+    width: 90%;
+  }
+  footer .footerContact {
+    margin-top: 30px;
+    text-align: left;
+    width: 60%;
+    margin: 30px auto 0;
+  }
+  footer .footerContact a {
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 700px) {
+  .surgery .type1 .imgContent img {
+    width: 350px;
+  }
+  .surgery .type2 .imgContent img {
+    width: 370px;
+  }
+  .surgery .textContent h4 {
+    margin-bottom: 40px;
+  }
+  .surgery .type2 .textContent {
+    margin-top: 75%;
+  }
+  p {
+    font-size: 14px !important;
+  }
+}
+@media (max-width: 575px) {
+  .surgery .textContent h4 {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+  .hero .imgContent .img-circle-3 img {
+    width: 217px;
+  }
+  .hero .imgContent {
+    right: -10%;
+  }
+  .hero .imgContent .heroScroll {
+    bottom: -120%;
+    right: 40%;
+  }
+  .hero .textContent .title {
+    margin-bottom: 49px;
+    margin-top: 75px;
+  }
+  .services .serviceSlider {
+    width: 165vw;
+  }
+  .procedures .img-circle-3 img {
+    width: 315px;
+  }
+  .procedures .imgContent {
+    position: absolute;
+    top: -140%;
+  }
+  .procedures {
+    margin-top: 550px;
+  }
+  .procedures .textContent h2, .procedures .textContent .title, .surgery .textContent h2, .surgery .textContent .title, .videoSection h2, .videoSection .title, .contactUsToday h2, .contactUsToday .title, .serving h2, .serving .title {
+    font-size: 45px;
+  }
+  .surgery .type2 .textContent {
+    margin-top: 115%;
+  }
+  .procedures .textContent .defaultBtn {
+    margin-top: 30px;
+  }
+  .hero {
+    height: auto;
+  }
+  .hero .textContent .heroContactInfo {
+    padding-right: 90px;
+  }
+  .hero .textContent .heroContactInfo a .icon {
+    margin-right: 15px;
+    flex-shrink: 0;
+  }
+  .defaultBtn {
+    font-size: 14px;
+  }
+  .hero .textContent .heroContactInfo {
+    margin-top: 79px;
+  }
+  .surgery .type1 .imgContent {
+    right: -40%;
+  }
+  .procedures .img-circle-1 {
+    outline: rgba(255, 255, 255, 0.2509803922) solid 481px;
+  }
+  .surgery .textContent h2, .surgery .textContent .title {
+    margin-bottom: 60px;
+  }
+  .surgery .type2 .imgContent {
+    left: -40%;
+  }
+  .surgery .pRight100 .img-circle-3 {
+    outline: rgba(255, 255, 255, 0.2509803922) solid 22px;
+  }
+}
+@media (max-width: 500px) {
+  footer .footerContact {
+    width: 80%;
+  }
+  footer .footerBot {
+    width: 100%;
+    font-size: 10px;
+  }
+  footer .footerContact a {
+    font-size: 14px;
+    align-items: flex-start;
+  }
+  footer {
+    padding: 75px 0 40px;
+  }
+  .contactUsToday .form-select, .contactUsToday .form-control {
+    font-size: 13px;
+  }
+  .contactUsToday button {
+    margin-top: 10px !important;
+  }
+  .videoSection .defaultBtn {
+    padding-right: 0;
+    padding-left: 0;
+    width: 100%;
+    text-align: center;
+  }
+}
+@media (max-width: 450px) {
+  .procedures .imgContent {
+    left: -25%;
+  }
+}/*# sourceMappingURL=responsive.css.map */
